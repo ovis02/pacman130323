@@ -1,0 +1,33 @@
+#game {
+  height: 560px;
+  width: 560px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#game div {
+  width: 20px;
+  height: 20px;
+}
+
+#game div.mur {
+  background-color: blue;
+}
+#game div.point {
+  background-color: lightsalmon;
+  border-radius: 50%;
+  border: white solid 7px;
+  box-sizing: border-box;
+}
+
+#game div.fantôme-area {
+  background-color: grey;
+}
+
+#game div.point-puissance {
+  background-color: greenyellow;
+  border-radius: 50%;
+  border: black solid 2px;
+  box-sizing: border-box;
+}
